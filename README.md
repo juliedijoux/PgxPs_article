@@ -22,11 +22,11 @@ The **`checking_primers_before_cut.filt_16S.R`** and **`checking_primers_before_
 The quality controls were performed using the *FastQ* and *MultiQC* packages.
 
 ## Removal of 5' and 3' primers with cutadapt
-To remove primers, the *cutadapt* package were used.
+To remove primers, the *[cutadapt](https://cutadapt.readthedocs.io/en/stable/index.html "Cutadapt removes adapter sequences from high-throughput sequencing reads")* package were used.
 
 ## DADA2 workflow
-The **`DADA2_16S.R`** and **`DADA2_ITS.R`** script 
-## Quality control of filtered reads
+The **`DADA2_16S.R`** and **`DADA2_ITS.R`** scripts were adapted from the [DADA2 workflow](https://benjjneb.github.io/dada2/index.html "DADA2: Fast and accurate sample inference from amplicon data with single-nucleotide resolution") of Benjamin Callahan.
+
 ## Run pipeline
 ```bash
 sbatch ~/work/sripts/pipeline_DADA2_16S.sh
