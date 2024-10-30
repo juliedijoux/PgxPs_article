@@ -19,7 +19,7 @@ The following files allow you to set up the different Conda environments used to
 ## Quality control
 The **`checking_primers_before_cut.filt_16S.R`** and **`checking_primers_before_cut.filt_ITS.R`** scripts allow the tracking of primers in raw data, whereas the **`checking_primers_after_cut.filt_16S.R`** and **`checking_primers_after_cut.filt_ITS.R`** scripts allow for the validation of primer removal step in filtered reads.
 
-The quality controls were performed using the *FastQ* and *MultiQC* packages.
+The quality controls were performed using the *[FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/ "A quality control tool for high throughput sequence data")* and the summary quality reports were edited using the *[MultiQC](https://seqera.io/multiqc/ "MultiQC: summarize analysis results for multiple tools and samples in a single report")* packages.
 
 ## Removal of 5' and 3' primers with cutadapt
 To remove primers, the *[cutadapt](https://cutadapt.readthedocs.io/en/stable/index.html "Cutadapt removes adapter sequences from high-throughput sequencing reads")* package were used.
