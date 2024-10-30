@@ -28,6 +28,7 @@ To remove primers, the *[cutadapt](https://cutadapt.readthedocs.io/en/stable/ind
 The **`DADA2_16S.R`** and **`DADA2_ITS.R`** scripts were adapted from the [DADA2 workflow](https://benjjneb.github.io/dada2/index.html "DADA2: Fast and accurate sample inference from amplicon data with single-nucleotide resolution") of Benjamin Callahan.
 
 ## Run pipeline
+
 ```bash
 sbatch ~/work/sripts/pipeline_DADA2_16S.sh
 sbatch ~/work/sripts/pipeline_DADA2_ITS.sh
