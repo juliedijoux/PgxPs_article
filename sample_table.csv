@@ -1,0 +1,148 @@
+Sample_ID;Sample;Species;Compartment;Compartment_2;Species_Compartment;Species_Compartment_2;Behavior
+ADN_F02_Pg;ADN_F02_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F03_Pg;ADN_F03_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F04_Pg;ADN_F04_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F05_Pg;ADN_F05_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F06_Pg;ADN_F06_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F07_Pg;ADN_F07_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F08_Pg;ADN_F08_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F09_Pg;ADN_F09_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F10_Pg;ADN_F10_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F11_Pg;ADN_F11_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F12_Pg;ADN_F12_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F13_Pg;ADN_F13_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F14_Pg;ADN_F14_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F15_Pg;ADN_F15_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F16_Pg;ADN_F16_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_F17_Pg;ADN_F17_Pg;Pg;Leaves;Aerial compartments;Pg_Leaves;Pg_Aerial compartments;Ni-HA
+ADN_P01_Pg;ADN_P01_Pg;Pg;Pulps;Aerial compartments;Pg_Pulps;Pg_Aerial compartments;Ni-HA
+ADN_P02_Pg;ADN_P02_Pg;Pg;Pulps;Aerial compartments;Pg_Pulps;Pg_Aerial compartments;Ni-HA
+ADN_P03_Pg;ADN_P03_Pg;Pg;Pulps;Aerial compartments;Pg_Pulps;Pg_Aerial compartments;Ni-HA
+ADN_P04_Pg;ADN_P04_Pg;Pg;Pulps;Aerial compartments;Pg_Pulps;Pg_Aerial compartments;Ni-HA
+ADN_P05_Pg;ADN_P05_Pg;Pg;Pulps;Aerial compartments;Pg_Pulps;Pg_Aerial compartments;Ni-HA
+ADN_P06_Pg;ADN_P06_Pg;Pg;Pulps;Aerial compartments;Pg_Pulps;Pg_Aerial compartments;Ni-HA
+ADN_P07_Pg;ADN_P07_Pg;Pg;Pulps;Aerial compartments;Pg_Pulps;Pg_Aerial compartments;Ni-HA
+ADN_P08_Pg;ADN_P08_Pg;Pg;Pulps;Aerial compartments;Pg_Pulps;Pg_Aerial compartments;Ni-HA
+ADN_P09_Pg;ADN_P09_Pg;Pg;Pulps;Aerial compartments;Pg_Pulps;Pg_Aerial compartments;Ni-HA
+ADN_P10_Pg;ADN_P10_Pg;Pg;Pulps;Aerial compartments;Pg_Pulps;Pg_Aerial compartments;Ni-HA
+ADN_G01_Pg;ADN_G01_Pg;Pg;Seeds;Aerial compartments;Pg_Seeds;Pg_Aerial compartments;Ni-HA
+ADN_G02_Pg;ADN_G02_Pg;Pg;Seeds;Aerial compartments;Pg_Seeds;Pg_Aerial compartments;Ni-HA
+ADN_G03_Pg;ADN_G03_Pg;Pg;Seeds;Aerial compartments;Pg_Seeds;Pg_Aerial compartments;Ni-HA
+ADN_G04_Pg;ADN_G04_Pg;Pg;Seeds;Aerial compartments;Pg_Seeds;Pg_Aerial compartments;Ni-HA
+ADN_G05_Pg;ADN_G05_Pg;Pg;Seeds;Aerial compartments;Pg_Seeds;Pg_Aerial compartments;Ni-HA
+ADN_G06_Pg;ADN_G06_Pg;Pg;Seeds;Aerial compartments;Pg_Seeds;Pg_Aerial compartments;Ni-HA
+ADN_G07_Pg;ADN_G07_Pg;Pg;Seeds;Aerial compartments;Pg_Seeds;Pg_Aerial compartments;Ni-HA
+ADN_G08_Pg;ADN_G08_Pg;Pg;Seeds;Aerial compartments;Pg_Seeds;Pg_Aerial compartments;Ni-HA
+ADN_G09_Pg;ADN_G09_Pg;Pg;Seeds;Aerial compartments;Pg_Seeds;Pg_Aerial compartments;Ni-HA
+ADN_G10_Pg;ADN_G10_Pg;Pg;Seeds;Aerial compartments;Pg_Seeds;Pg_Aerial compartments;Ni-HA
+ADN_R01_Pg;ADN_R01_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R02_Pg;ADN_R02_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R03_Pg;ADN_R03_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R04_Pg;ADN_R04_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R05_Pg;ADN_R05_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R06_Pg;ADN_R06_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R07_Pg;ADN_R07_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R08_Pg;ADN_R08_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R09_Pg;ADN_R09_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R10_Pg;ADN_R10_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R11_Pg;ADN_R11_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R12_Pg;ADN_R12_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R13_Pg;ADN_R13_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R14_Pg;ADN_R14_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R15_Pg;ADN_R15_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_R16_Pg;ADN_R16_Pg;Pg;Roots;Underground compartments;Pg_Roots;Pg_Underground compartments;Ni-HA
+ADN_S01_Pg;ADN_S01_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S02_Pg;ADN_S02_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S03_Pg;ADN_S03_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S04_Pg;ADN_S04_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S05_Pg;ADN_S05_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S06_Pg;ADN_S06_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S07_Pg;ADN_S07_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S08_Pg;ADN_S08_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S09_Pg;ADN_S09_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S10_Pg;ADN_S10_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S11_Pg;ADN_S11_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S12_Pg;ADN_S12_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S13_Pg;ADN_S13_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S14_Pg;ADN_S14_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S15_Pg;ADN_S15_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_S16_Pg;ADN_S16_Pg;Pg;Soil;Underground compartments;Pg_Soil;Pg_Underground compartments;Ni-HA
+ADN_F01_Ps;ADN_F01_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F02_Ps;ADN_F02_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F03_Ps;ADN_F03_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F04_Ps;ADN_F04_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F05_Ps;ADN_F05_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F06_Ps;ADN_F06_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F07_Ps;ADN_F07_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F08_Ps;ADN_F08_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F09_Ps;ADN_F09_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F10_Ps;ADN_F10_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F11_Ps;ADN_F11_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F12_Ps;ADN_F12_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F13_Ps;ADN_F13_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F14_Ps;ADN_F14_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F15_Ps;ADN_F15_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_F16_Ps;ADN_F16_Ps;Ps;Leaves;Aerial compartments;Ps_Leaves;Ps_Aerial compartments;non-HA
+ADN_P01_Ps;ADN_P01_Ps;Ps;Pulps;Aerial compartments;Ps_Pulps;Ps_Aerial compartments;non-HA
+ADN_P02_Ps;ADN_P02_Ps;Ps;Pulps;Aerial compartments;Ps_Pulps;Ps_Aerial compartments;non-HA
+ADN_P03_Ps;ADN_P03_Ps;Ps;Pulps;Aerial compartments;Ps_Pulps;Ps_Aerial compartments;non-HA
+ADN_P05_Ps;ADN_P05_Ps;Ps;Pulps;Aerial compartments;Ps_Pulps;Ps_Aerial compartments;non-HA
+ADN_P07_Ps;ADN_P07_Ps;Ps;Pulps;Aerial compartments;Ps_Pulps;Ps_Aerial compartments;non-HA
+ADN_P08_Ps;ADN_P08_Ps;Ps;Pulps;Aerial compartments;Ps_Pulps;Ps_Aerial compartments;non-HA
+ADN_P09_Ps;ADN_P09_Ps;Ps;Pulps;Aerial compartments;Ps_Pulps;Ps_Aerial compartments;non-HA
+ADN_P10_Ps;ADN_P10_Ps;Ps;Pulps;Aerial compartments;Ps_Pulps;Ps_Aerial compartments;non-HA
+ADN_G01_Ps;ADN_G01_Ps;Ps;Seeds;Aerial compartments;Ps_Seeds;Ps_Aerial compartments;non-HA
+ADN_G02_Ps;ADN_G02_Ps;Ps;Seeds;Aerial compartments;Ps_Seeds;Ps_Aerial compartments;non-HA
+ADN_G04_Ps;ADN_G04_Ps;Ps;Seeds;Aerial compartments;Ps_Seeds;Ps_Aerial compartments;non-HA
+ADN_G05_Ps;ADN_G05_Ps;Ps;Seeds;Aerial compartments;Ps_Seeds;Ps_Aerial compartments;non-HA
+ADN_G06_Ps;ADN_G06_Ps;Ps;Seeds;Aerial compartments;Ps_Seeds;Ps_Aerial compartments;non-HA
+ADN_G07_Ps;ADN_G07_Ps;Ps;Seeds;Aerial compartments;Ps_Seeds;Ps_Aerial compartments;non-HA
+ADN_G08_Ps;ADN_G08_Ps;Ps;Seeds;Aerial compartments;Ps_Seeds;Ps_Aerial compartments;non-HA
+ADN_G09_Ps;ADN_G09_Ps;Ps;Seeds;Aerial compartments;Ps_Seeds;Ps_Aerial compartments;non-HA
+ADN_R02_Ps;ADN_R02_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R03_Ps;ADN_R03_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R05_Ps;ADN_R05_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R06_Ps;ADN_R06_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R07_Ps;ADN_R07_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R08_Ps;ADN_R08_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R09_Ps;ADN_R09_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R10_Ps;ADN_R10_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R11_Ps;ADN_R11_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R12_Ps;ADN_R12_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R13_Ps;ADN_R13_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R14_Ps;ADN_R14_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R15_Ps;ADN_R15_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R18_Ps;ADN_R18_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_R19_Ps;ADN_R19_Ps;Ps;Roots;Underground compartments;Ps_Roots;Ps_Underground compartments;non-HA
+ADN_S02_Ps;ADN_S02_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S04_Ps;ADN_S04_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S05_Ps;ADN_S05_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S08_Ps;ADN_S08_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S10_Ps;ADN_S10_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S12_Ps;ADN_S12_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S15_Ps;ADN_S15_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S17_Ps;ADN_S17_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S18_Ps;ADN_S18_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S19_Ps;ADN_S19_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S20_Ps;ADN_S20_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S21_Ps;ADN_S21_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S22_Ps;ADN_S22_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S23_Ps;ADN_S23_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S24_Ps;ADN_S24_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_S25_Ps;ADN_S25_Ps;Ps;Soil;Underground compartments;Ps_Soil;Ps_Underground compartments;non-HA
+ADN_SNR01_P;ADN_SNR01_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR02_P;ADN_SNR02_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR03_P;ADN_SNR03_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR04_P;ADN_SNR04_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR06_P;ADN_SNR06_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR07_P;ADN_SNR07_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR10_P;ADN_SNR10_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR12_P;ADN_SNR12_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR13_P;ADN_SNR13_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR14_P;ADN_SNR14_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR15_P;ADN_SNR15_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR16_P;ADN_SNR16_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR17_P;ADN_SNR17_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR18_P;ADN_SNR18_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR20_P;ADN_SNR20_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
+ADN_SNR23_P;ADN_SNR23_P;Bs;Soil;Underground compartments;Bulk_Soil;Bulk_soil;
