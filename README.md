@@ -2,7 +2,7 @@
 ## Download Raw Data
 The raw sequencing reads used in the study are available in the NCBI SRA database under **`BioProject PRJNA1157462`**.
 
-Once downloaded and placed in a folder named **`raw_data`**, the data integrity can be verified with the file **`HN00186490_328samples_md5sum_DownloadLink.txt`** using the following lines of code in Anaconda3:
+Once downloaded and placed in a folder named **`raw_data`**, the data integrity can be verified with the file **`HN00186490_328samples_md5sum_DownloadLink.txt`** using the following lines of code:
 ```bash
 awk '{print $3 " " $1}' HN00186490_328samples_md5sum_DownloadLink.txt | grep -v File > md5sum.txt
 cat md5sum.txt
