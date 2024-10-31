@@ -14,7 +14,7 @@ The formatted **[SILVA database version 138.1](https://zenodo.org/records/458795
 The following file must be download and add to the **`DB_taxo`** folder:
 - **`silva_nr99_v138.1_train_set.fa.gz`** *[(Link)](https://zenodo.org/records/4587955 "Silva 138.1 prokaryotic SSU taxonomic training data formatted for DADA2")*
 - **`silva_species_assignment_v138.1.fa.gz`** *[(Link)](https://zenodo.org/records/4587955 "Silva 138.1 prokaryotic SSU taxonomic training data formatted for DADA2")*
-- **`sh_general_release_dynamic_s_all_25.07.2023.fasta`** *[(link)](https://doi.plutof.ut.ee/doi/10.15156/BIO/2938070 "UNITE general FASTA release for eukaryotes 2")*
+- **`sh_general_release_dynamic_s_all_25.07.2023.fasta`** *[(Link)](https://doi.plutof.ut.ee/doi/10.15156/BIO/2938070 "UNITE general FASTA release for eukaryotes 2")*
 
 ## Workspace
 Download the **`scripts`** folder and set up the workspace as follows:
