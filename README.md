@@ -1,6 +1,6 @@
 # Requirements
 ## Download Raw Data
-The raw sequencing reads used in the study are available in the NCBI SRA database under **`BioProject PRJNA1157462`**.
+The raw sequencing reads used in the study are available in the NCBI SRA database under **`BioProject PRJNA1157462`**. This BioProject includes data from Illumina MiSeq sequencing. Two libraries were generated: one targeting the 16S rDNA gene and another targeting the ITS region.
 
 Once downloaded and placed in a folder named **`raw_data`**, the data integrity can be verified with the file **`HN00186490_328samples_md5sum_DownloadLink.txt`** using the following lines of code:
 ```bash
@@ -61,7 +61,7 @@ To remove primers, the *[cutadapt](https://cutadapt.readthedocs.io/en/stable/ind
 The **`DADA2_16S.R`** and **`DADA2_ITS.R`** scripts were adapted from the [DADA2 workflow](https://benjjneb.github.io/dada2/index.html "DADA2: Fast and accurate sample inference from amplicon data with single-nucleotide resolution") of Benjamin Callahan.
 
 ## Run Pipeline
-The entire pipeline can be run using the **`pipeline_DADA2_16S.sh`** and **`pipeline_DADA2_ITS.sh`** scripts:
+The entire pipeline can be run using the **`pipeline_DADA2_16S.sh`** and **`pipeline_DADA2_ITS.sh`** scripts for the bacterial (16S) and fungal (ITS) libraries, respectively:
 ```bash
 sbatch ~/work/sripts/pipeline_DADA2_16S.sh
 sbatch ~/work/sripts/pipeline_DADA2_ITS.sh
