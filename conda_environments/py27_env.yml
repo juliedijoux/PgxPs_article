@@ -124,4 +124,3 @@ dependencies:
   - pip:
     - conda-pack==0.6.0
     - multiqc==1.0.dev0
-prefix: /home/unc/jdijoux/.conda/envs/py27
