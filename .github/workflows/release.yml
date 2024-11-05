@@ -1,0 +1,38 @@
+name: Create Release for Reviewers
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - Bioinformatic-processing
+      - Statistical-analysis
+
+jobs:
+  create_release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Archive Repository
+        run: zip -r project.zip ./*
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        with:
+          tag_name: "reviewers-access"
+          release_name: "Reviewers Access Release"
+          draft: true
+          prerelease: true
+          body: "Scripts for reviewers."
+
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: project.zip
+          asset_name: project.zip
+          asset_content_type: application/zip
