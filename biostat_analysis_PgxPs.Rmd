@@ -25,10 +25,10 @@ All analyses were performed using R version 4.2.0. The `.rmd` file must be locat
 ## Creating and saving the fasta file, abundance table and taxonomic table with ASV IDs
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis"
+path <- "C:/biostat_analysis"
 newfolder <- "1_formatted_files"
 if (!file.exists(newfolder)) dir.create(file.path(path, newfolder))
 
@@ -114,10 +114,10 @@ ID.fasta("ITS")
 ## Correcting abundance tables according to negative controls
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis"
+path <- "C:/biostat_analysis"
 newfolder <- "2_corrected_files"
 if (!file.exists(newfolder)) dir.create(file.path(path, newfolder))
 
@@ -223,10 +223,10 @@ correct.tab("ITS")
 ## Removal of non-bacterial/fungal taxa
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis"
+path <- "C:/biostat_analysis"
 newfolder <- "3_filtered_files"
 if (!file.exists(newfolder)) dir.create(file.path(path, newfolder))
 
@@ -319,10 +319,10 @@ filt_taxa("ITS")
 ## Normalization of abundance tables in CPM
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis"
+path <- "C:/biostat_analysis"
 newfolder <- "4_normalized_tables"
 if (!file.exists(newfolder)) dir.create(file.path(path, newfolder))
 
@@ -352,10 +352,10 @@ norm.CPM("ITS")
 ## All data
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis"
+path <- "C:/biostat_analysis"
 newfolder <- "5_venn_files"
 if (!file.exists(newfolder)) dir.create(file.path(path, newfolder))
 
@@ -474,7 +474,7 @@ distrib.venn1("ITS", "ASV")
 ## Specific data
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 distrib.venn2 <- function(libraries, type, subset) {
   # libraries = "16S" (for bacterial library) or "ITS" (for fungal library)
@@ -725,14 +725,14 @@ distrib.venn2("ITS", "ASV", "recruited")
 # Editing specific ASV abundance tables and taxonomic tables
 ```{r, message=FALSE, warning=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis"
+path <- "C:/biostat_analysis"
 newfolder <- "6_editing_figures"
 if (!file.exists(newfolder)) dir.create(file.path(path, newfolder))
 
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis/6_editing_figures"
+path <- "C:/biostat_analysis/6_editing_figures"
 newfolder_1 <- "ASV_data"
 if (!file.exists(newfolder_1)) dir.create(file.path(path, newfolder_1))
 
@@ -932,10 +932,10 @@ edit.spec.tab("16S", "ASV", "core")
 # Alpha diversity
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis/6_editing_figures"
+path <- "C:/biostat_analysis/6_editing_figures"
 newfolder <- "alpha_diversity"
 if (!file.exists(newfolder)) dir.create(file.path(path, newfolder))
 
@@ -1273,140 +1273,13 @@ a.div.index("ITS", "fdr")
 ```
 
 # Beta diversity
-## MDS
-```{r, warning=FALSE, message=FALSE}
-rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
-
-# Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis/6_editing_figures"
-newfolder <- "beta_diversity"
-if (!file.exists(newfolder)) dir.create(file.path(path, newfolder))
-
-# Choice of colours
-c1 <- "#24445C" # Seeds Pg
-c2 <- "#800080" # Pulps Pg
-c3 <- "#85C17E" # Leaves Pg
-c4 <- "#DAB30A" # Roots Pg
-c5 <- "#5B3C11" # Soil Pg
-
-c6 <- "#8EA2C6" # Seeds Ps
-c7 <- "#C71585" # Pulps Ps
-c8 <- "#B0F2B6" # Leaves Ps
-c9 <- "#E7F00D" # Roots Ps
-c10 <- "#8B6C42" # Soil Ps
-
-c11 <- "black" # Bulk Soil
-
-all_MDS <- function(libraries, method, nk) {
-  # libraries =  "16S" (for bacterial library) or "ITS" (for fungal library)
-  # method = "morisita", "manhattan", "euclidean", "canberra", "clark", "bray", "kulczynski", "jaccard", "gower", "altGower", "horn", "mountford", "raup", "binomial", "chao", "cao", "mahalanobis", "chisq", "chord", "hellinger", "aitchison", or "robust.aitchison"
-  # nk = maximum dimension of the space which the data are to be represented in
-
-  library(microeco)
-  library(magrittr)
-  library(Biostrings)
-  library(vegan)
-  library(plotly)
-  library(webshot)
-  library(magick)
-
-  # Loading abundance table and sample metadata
-  asv_tab <- readRDS(paste0("4_normalized_tables/ASV_tab_all.sp_all.asv_", libraries, ".RDS"))
-  sample_data <- read.csv("sample_table.csv",
-    sep = ";",
-    header = T, row.names = "Sample_ID"
-  )
-
-  DS <- microtable$new(
-    otu_table = asv_tab,
-    sample_table = sample_data
-  )
-  print(DS)
-  DS$tidy_dataset()
-  print(DS)
-
-  sample_info <- DS$sample_table
-  sample_info$Species_Compartment <- gsub("_", " ", sample_info$Species_Compartment)
-  asvTab <- data.frame(t(DS$otu_table)) # Échantillons en ligne
-
-  # Calculating the distance matrix
-  matrix_morisita <- as.matrix(vegdist(asvTab, method = method))
-  write.table(matrix_morisita,
-    file = paste0("6_editing_figures/beta_diversity/matrix_", method, "_", libraries, ".csv"),
-    sep = ";",
-    col.names = NA
-  )
-
-  # MDS
-  prin_comp <- cmdscale(matrix_morisita, k = nk, eig = TRUE)
-
-  # Calculate the proportion of variance explained by each component
-  explained_variance_ratio <- prin_comp$eig / sum(prin_comp$eig) * 100
-  explained_variance_ratio <- round(explained_variance_ratio, 1)
-
-  # Creation of the dataframe with the principal components for the final figure
-  components <- data.frame(
-    Axis1 = prin_comp$points[, 1],
-    Axis2 = prin_comp$points[, 2],
-    Axis3 = prin_comp$points[, 3]
-  )
-
-  # Adding information to the "components" dataframe
-  components$Species_Compartment <- sample_info$Species_Compartment
-
-  # Reversing the axes
-  components$Axis1 <- -components$Axis1
-  components$Axis2 <- -components$Axis2
-  components$Axis3 <- -components$Axis3
-
-  # Create an interactive 3D point cloud plot
-  components$Species_Compartment <- factor(components$Species_Compartment,
-    levels = c(
-      "Pg Seeds", "Pg Pulps", "Pg Leaves", "Pg Roots", "Pg Soil",
-      "Ps Seeds", "Ps Pulps", "Ps Leaves", "Ps Roots", "Ps Soil",
-      "Bulk Soil"
-    )
-  )
-  if (libraries == "16S") {
-    title <- "(a) MDS analysis of bacterial samples"
-  } else if (libraries == "ITS") {
-    title <- "(b) MDS analysis of fungal samples"
-  }
-
-
-  fig_species_compartment <- plot_ly(components,
-    x = ~Axis1,
-    y = ~Axis2, z = ~Axis3,
-    color = ~Species_Compartment,
-    colors = c(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11),
-    type = "scatter3d", mode = "markers",
-    marker = list(size = 7)
-  ) %>%
-    layout(
-      title = title,
-      scene = list(
-        xaxis = list(title = paste("Axis 1 (", toString(explained_variance_ratio[1]), "%)", sep = ""), titlefont = list(size = 15), tickfont = list(size = 12)),
-        yaxis = list(title = paste("Axis 2 (", toString(explained_variance_ratio[2]), "%)", sep = ""), titlefont = list(size = 15), tickfont = list(size = 12)),
-        zaxis = list(title = paste("Axis 3 (", toString(explained_variance_ratio[3]), "%)", sep = ""), titlefont = list(size = 15), tickfont = list(size = 12))
-      ),
-      legend = list(title = list(text = "Species and compartment"))
-    )
-
-  fig_species_compartment
-}
-
-all_MDS("16S", "morisita", 3)
-all_MDS("ITS", "morisita", 3)
-```
-
 ## Hierarchical Clustering (HC)
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis/6_editing_figures"
+path <- "C:/biostat_analysis/6_editing_figures"
 newfolder <- "beta_diversity"
 if (!file.exists(newfolder)) dir.create(file.path(path, newfolder))
 
@@ -1423,6 +1296,7 @@ dend.cah <- function(libraries, method, distance, clusters) {
   library(RColorBrewer)
   library(MASS)
   library(extrafont)
+  library(dendextend)
   loadfonts(device = "pdf")
 
   # Loading abundance table
@@ -1458,111 +1332,21 @@ dend.cah <- function(libraries, method, distance, clusters) {
   text(sort(matrix.cw $height), nrow(asv_tab):2, nrow(asv_tab):2,
        col="red", cex=0.8)
   dev.off()
-
-  # Plotting the dendrogram and k classes
-  #   if (libraries == "16S") {
-  #   title = "Dendrogram of Hierarchical Clustering of Samples Based on ASV Composition (bacterial samples)"
-  # } else {
-  #   title = "Dendrogram of Hierarchical Clustering of Samples Based on ASV Composition (fungal samples)"
-  # }
-
-  pdf(
-    file = paste0("6_editing_figures/beta_diversity/dendrogram_", method, "_", clusters, "_", libraries, ".pdf"),
-    width = 8.8, height = 6.6
-  )
-  # Part 1: drawing the dendrogram and rectangles
-  plot(matrix.cwo,
-    hang = -1, cex = 0.25, cex.axis = 0.75,
-    ylab = "Distance", xlab = paste(nrow(asv_tab), " samples"),
-    main = NULL,
-    sub = paste(clusters, " clusters (k)")
-  )
-  rect.hclust(matrix.cwo, k = clusters, border = 1:clusters)
-
-  # Part 2: adding labels to rectangles
-  if (libraries == "16S") {
-    text(
-      x = 17, y = -0.7,
-      labels = "k1_B", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 49, y = -0.7,
-      labels = "k2_B", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 72, y = -0.7,
-      labels = "k3_B", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 88, y = -0.7,
-      labels = "k4_B", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 100.5, y = -0.7,
-      labels = "k5_B", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 109, y = -0.7,
-      labels = "k6_B", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 114, y = -0.7,
-      labels = "k7_B", pos = 3, font = 2, cex = 0.25
-    )
-    text(
-      x = 123.5, y = -0.7,
-      labels = "k8_B", pos = 3, font = 2, cex = 0.5
-    )
-
-    # Part 3: add the horizontal line and its label
-    abline(h = matrix.cwo$height[length(matrix.cwo$height) - 2], lty = 2, col = "red", lwd = 1)
-    text(x = 1.8, y = round(matrix.cwo$height[length(matrix.cwo$height) - 2], 0)-0.05, labels = paste0("distance = ", round(matrix.cwo$height[length(matrix.cwo$height) - 2], 2)), pos = 3, col = "red", cex = 0.5)
-  } else if (libraries == "ITS") {
-    text(
-      x = 8, y = -0.64,
-      labels = "k1_F", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 25, y = -0.64,
-      labels = "k2_F", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 41, y = -0.64,
-      labels = "k3_F", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 50.5, y = -0.64,
-      labels = "k4_F", pos = 3, font = 2, cex = 0.3
-    )
-    text(
-      x = 58, y = -0.64,
-      labels = "k5_F", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 72, y = -0.64,
-      labels = "k6_F", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 87, y = -0.64,
-      labels = "k7_F", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 102.5, y = -0.64,
-      labels = "k8_F", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 120, y = -0.64,
-      labels = "k9_F", pos = 3, font = 2, cex = 0.5
-    )
-    text(
-      x = 137.5, y = -0.64,
-      labels = "k10_F", pos = 3, font = 2, cex = 0.5
-    )
-
-    # Part 3: add the horizontal line and its label
-    abline(h = matrix.cwo$height[length(matrix.cwo$height) - 2], lty = 2, col = "red", lwd = 1)
-    text(x = 1.3, y = round(matrix.cwo$height[length(matrix.cwo$height) - 2], 0)-0.15, labels = paste0("distance = ", round(matrix.cwo$height[length(matrix.cwo$height) - 2], 1)), pos = 3, col = "red", cex = 0.5)
-  }
+  
+  # Cut the dendrogram into k clusters
+  cluster_assignments <- cutree(matrix.cwo, k = clusters)
+  
+  # Convert hclust object to dendrogram
+  dend <- as.dendrogram(matrix.cwo)
+  
+  # Color the branches according to the clusters
+  dend_colored <- color_branches(dend, k = clusters)
+  
+  # Create the plot
+  pdf(file = paste0("6_editing_figures/beta_diversity/dendrogram_", method, "_", clusters, "_", libraries, ".pdf"), width = 8.8, height = 6.6)
+  par(cex=0.25)
+  plot(dend_colored,
+       main = paste("Dendrogram with", clusters, "clusters"))
   dev.off()
 }
 
@@ -1574,10 +1358,10 @@ dend.cah("ITS", "morisita", "ward.D2", 10)
 ## Figures
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis/6_editing_figures"
+path <- "C:/biostat_analysis/6_editing_figures"
 newfolder <- "barplots"
 if (!file.exists(newfolder)) dir.create(file.path(path, newfolder))
 
@@ -1690,7 +1474,7 @@ barplot.fig("ITS", "all.sp_all.asv", "ASV", "Genus", 20)
 ## Statistics
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Get stats for relative abundances
 get.stats <- function(libraries, type, subset, level) {
@@ -1748,10 +1532,10 @@ get.stats("ITS", "ASV", "all.sp_all.asv", "Class")
 # Biomarkers (LEfSe analysis)
 ```{r warning=FALSE, collapse=TRUE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis/6_editing_figures"
+path <- "C:/biostat_analysis/6_editing_figures"
 newfolder <- "LEfSe"
 if (!file.exists(newfolder)) dir.create(file.path(path, newfolder))
 
@@ -1852,14 +1636,14 @@ Github link: https://github.com/ChengGaoBerkeley/EPICON.FunBac/blob/main/Fig.3.F
 
 ```{r message=FALSE, warning=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis/6_editing_figures"
+path <- "C:/biostat_analysis/6_editing_figures"
 newfolder <- "co-occurence_network"
 if (!file.exists(newfolder)) dir.create(file.path(path, newfolder))
 
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis/6_editing_figures/co-occurence_network"
+path <- "C:/biostat_analysis/6_editing_figures/co-occurence_network"
 newfolder <- "BF_tables"
 if (!file.exists(file.path(path, newfolder))) {
   dir.create(file.path(path, newfolder))
@@ -1899,9 +1683,9 @@ BF.tab <- function(subset, compartment, type) {
   }
 
   # Creating BF tables
-  path_16S <- paste0("7_editing_figures/", type, "_data/taxo_tab_", subset, "_subset_", compartment, "_16S.RDS")
+  path_16S <- paste0("6_editing_figures/", type, "_data/taxo_tab_", subset, "_subset_", compartment, "_16S.RDS")
   if (file.exists(path_16S)) tab_16S <- readRDS(file = path_16S)
-  path_ITS <- paste0("7_editing_figures/", type, "_data/taxo_tab_", subset, "_subset_", compartment, "_ITS.RDS")
+  path_ITS <- paste0("6_editing_figures/", type, "_data/taxo_tab_", subset, "_subset_", compartment, "_ITS.RDS")
   if (file.exists(path_ITS)) tab_ITS <- readRDS(file = path_ITS)
 
   if (!exists("tab_16S") || !exists("tab_ITS")) {
@@ -1945,10 +1729,10 @@ BF.tab("Ps-spec", "soil", "ASV")
 
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis/6_editing_figures/co-occurence_network"
+path <- "C:/biostat_analysis/6_editing_figures/co-occurence_network"
 newfolder <- "spearman_correlation"
 if (!file.exists(file.path(path, newfolder))) {
   dir.create(file.path(path, newfolder))
@@ -2000,10 +1784,10 @@ SpMan("Ps-spec", "seeds", "ASV")
 
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis/6_editing_figures/co-occurence_network"
+path <- "C:/biostat_analysis/6_editing_figures/co-occurence_network"
 newfolder <- "SpMan_Rsig"
 if (!file.exists(file.path(path, newfolder))) {
   dir.create(file.path(path, newfolder))
@@ -2083,16 +1867,16 @@ SpMan.Rsig("Ps-spec", "seeds", "ASV")
 
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Out folder creation
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis/6_editing_figures/co-occurence_network"
+path <- "C:/biostat_analysis/6_editing_figures/co-occurence_network"
 newfolder <- "SpMan_network"
 if (!file.exists(file.path(path, newfolder))) {
   dir.create(file.path(path, newfolder))
 }
 
-path <- "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis/6_editing_figures/co-occurence_network/SpMan_network"
+path <- "C:/biostat_analysis/6_editing_figures/co-occurence_network/SpMan_network"
 newfolder_1 <- "property"
 newfolder_2 <- "module_details"
 newfolder_3 <- "figures"
@@ -2268,7 +2052,7 @@ bac.fung.cross.net("Ps-spec", "soil", "ASV", "all")
 ## Graphe and module informations
 ```{r, warning=FALSE, message=FALSE}
 rm(list = ls(all.names = TRUE)) # Clean the environment
-setwd(dir = "C:/Users/jdijoux/Pictures/Rédaction ARTICLE 22-09-2024/biostat_analysis") # Set directory
+setwd(dir = "C:/biostat_analysis") # Set directory
 
 # Path to the directory containing the .RDS files
 path <- "6_editing_figures/co-occurence_network/SpMan_network/property"
