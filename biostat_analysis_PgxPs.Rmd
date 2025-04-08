@@ -1212,13 +1212,13 @@ a.div.index <- function(libraries, p.adj) {
       axis.title.y = element_blank(),
       axis.text.y = element_blank()
     ) +
-    xlab("Invsimpson index") +
+    xlab("InvSimpson index") +
     geom_errorbar(aes(xmin = mean - SD, xmax = mean + SD, color = Species),
       width = .1,
       position = position_dodge(0.05)
     ) +
-    scale_color_manual(values = c(Bs = "#ED7F10", Pg = "#008E8E", Ps = "#85C17E")) +
-    scale_shape_manual(values = c(Bs = 17, Pg = 19, Ps = 15))
+    scale_color_manual(name = "Sample", values = c(Bs = "#ED7F10", Pg = "#008E8E", Ps = "#85C17E")) +
+    scale_shape_manual(name = "Sample", values = c(Bs = 17, Pg = 19, Ps = 15))
 
   Invsimpson <- merge_tab[, c("Species and compartment", "Invsimpson")]
 
