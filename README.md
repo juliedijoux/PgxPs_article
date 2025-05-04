@@ -48,6 +48,7 @@ The following files allow you to set up the different Conda environments used to
 - **r420** environment: **`conda_environments/r420_env.yml`**
 - **py27** environment: **`conda_environments/py27_env.yml`**
 - **cutadapt** environment: **`conda_environments/cutadapt_env.yml`**
+
 The entire pipeline is set up to run using SLURM.
 
 ## Quality Control
