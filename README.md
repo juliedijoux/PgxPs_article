@@ -48,6 +48,7 @@ The following files allow you to set up the different Conda environments used to
 - **r420** environment: **`conda_environments/r420_env.yml`**
 - **py27** environment: **`conda_environments/py27_env.yml`**
 - **cutadapt** environment: **`conda_environments/cutadapt_env.yml`**
+The entire pipeline is set up to run using SLURM.
 
 ## Quality Control
 The **`checking_primers_before_cut.filt_16S.R`** and **`checking_primers_before_cut.filt_ITS.R`** scripts allow the tracking of primers in raw data, whereas the **`checking_primers_after_cut.filt_16S.R`** and **`checking_primers_after_cut.filt_ITS.R`** scripts allow for the validation of primer removal step in filtered reads.
